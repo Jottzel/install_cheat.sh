@@ -6,5 +6,6 @@
 + Promtps "Search: " if no parameters were given
 
 ### Usage
-In the command line simply type **$ cheat** or **$ cheat [your argument]**    
-`Example`: **$ cheat ls** shows information about the ls command.
+In the command line simply type `$ cheat` or `$ cheat [your argument]`    
+**Example 1**: `$ cheat ls` shows information about the ls command.
+**Example 1**: `$ cheat python/func` shows information about Python Functions.
