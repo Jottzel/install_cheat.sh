@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "Welcome to the cheat.sh setup."
 while true; do
     read -p "Do you wish to install this program?" yn
@@ -14,8 +15,8 @@ git clone https://github.com/chubin/cheat.sh.git
 chmod +x cheat.sh
 
 
-Folder=~/Bash_scripte
-Filecheat=~/Bash_scripte/cheatscript.sh
+Folder=~/alias_scripts
+Filecheat=~/alias_scripts/cheatscript.sh
 
 if test -f "$Folder"
 then
@@ -34,7 +35,7 @@ fi
 
 FILE=~/.bash_aliases
 CHECKALIAS="cheatscript.sh"
-ALIAS='alias cheat="~/Bash_Scripte/./cheatscript.sh"'
+ALIAS='alias cheat="~/alias_scripts/./cheatscript.sh"'
 
 if test -f "$FILE"
 then
