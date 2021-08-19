@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# Set an alias for curl cheat.sh
 
 echo "Welcome to the cheat.sh setup."
 while true; do
@@ -14,7 +16,6 @@ Folder=~/alias_scripts
 Filecheat=~/alias_scripts/cheatscript.sh
 
 if test -f "$Folder"
-
 then
 	echo "alias_scripts exists."
 
@@ -36,8 +37,6 @@ else
 	git clone https://github.com/Jottzel/cheatalias.sh.git
 	mv cheatalias.sh/cheatscript.sh "$Folder"
 	chmod +x "$Filecheat"
-
-
 fi
 
 FILE=~/.bash_aliases
