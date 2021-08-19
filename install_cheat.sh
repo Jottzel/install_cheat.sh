@@ -10,10 +10,6 @@ while true; do
     esac
 done
 
-echo "Cloning cheat.sh from https://github.com/chubin/cheat.sh.git"
-git clone https://github.com/chubin/cheat.sh.git
-chmod +x cheat.sh
-
 Folder=~/alias_scripts
 Filecheat=~/alias_scripts/cheatscript.sh
 
