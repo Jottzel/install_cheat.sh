@@ -1,4 +1,3 @@
-# install-cheat.sh
 ## Install script for cheat.sh
 ### Script needs to be executed in your git folder.
 + clones cheat.sh from the offical repo
