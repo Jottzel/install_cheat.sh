@@ -1,4 +1,4 @@
-## Simple install script for cheat.sh   
+## Simple script to access cheat.sh over alias  
 Unified access to the best community driven documentations of the world.
 
 ### Installation     
