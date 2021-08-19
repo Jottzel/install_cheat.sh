@@ -2,7 +2,7 @@
 
 echo "Welcome to the cheat.sh setup."
 while true; do
-    read -p "Do you wish to install this program?" yn
+    read -p "Do you wish to set an alias for curl cheat.sh?" yn
     case $yn in
         [Yy]* ) break;;
         [Nn]* ) exit;;
@@ -62,5 +62,5 @@ else
 fi
 
 echo "Installation was sucessful."
-echo " Restart your terminal to have the changes become active."
+echo "Restart your terminal to have the changes become active."
 exit 0
