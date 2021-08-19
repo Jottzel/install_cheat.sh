@@ -1,6 +1,5 @@
 #!/bin/bash
-#
-# Set an alias for curl cheat.sh
+# Sets an alias for curl cheat.sh
 
 echo "Welcome to the cheat.sh setup."
 while true; do
