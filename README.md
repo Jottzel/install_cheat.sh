@@ -7,5 +7,5 @@
 
 ### Usage
 In the command line simply type `$ cheat` or `$ cheat [your argument]`    
-**Example 1**: `$ cheat ls` shows information about the ls command.
-**Example 1**: `$ cheat python/func` shows information about Python Functions.
+**Example 1**: `$ cheat ls` shows information about the ls command.        
+**Example 2**: `$ cheat python/func` shows information about Python Functions.
