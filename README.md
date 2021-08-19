@@ -20,5 +20,6 @@ In the command line simply type `$ cheat` or `$ cheat [your parameter]`
 
 For the cheat.sh main page execute `curl cheat.sh`   
 
+### Aditional Info
 Make sure to follow https://github.com/chubin for any updates on cheat.sh.
 
