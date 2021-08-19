@@ -1,4 +1,4 @@
-## Install script for cheat.sh
+## Simple install script for cheat.sh
 
 ### Installation     
 **Inside your git folder do:**
