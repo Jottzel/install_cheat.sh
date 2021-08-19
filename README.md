@@ -16,4 +16,9 @@ In the command line simply type `$ cheat` or `$ cheat [your parameter]`
 
 **Example 1**: `$ cheat ls` shows information about the ls command.        
 **Example 2**: `$ cheat python/func` shows information about python functions.      
-**Example 3**: `$ cheat` prompts `Search:` and expects the command or functionality you are looking for.
+**Example 3**: `$ cheat` prompts `Search:` and expects the command or functionality you are looking for.   
+
+For the cheat.sh main page execute `curl cheat.sh`   
+
+Make sure to follow https://github.com/chubin for any updates on cheat.sh.
+
