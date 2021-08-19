@@ -2,8 +2,8 @@
 
 ### Installation     
 **Inside your git folder do:**
-+ `git clone https://github.com/Jottzel/install-cheat.sh.git` 
-+ `cd install-cheat.sh && chmod +x install_cheat.sh`
++ `git clone https://github.com/Jottzel/install_cheat.sh.git` 
++ `cd install_cheat.sh && chmod +x install_cheat.sh`
 + `./install_cheat.sh`
 ### What the script does
 + clones cheat.sh from the [offical repository](https://github.com/chubin/cheat.sh)
