@@ -6,7 +6,7 @@ Unified access to the best community driven documentations of the world.
 + `git clone https://github.com/Jottzel/install_cheat.sh.git` 
 + `cd install_cheat.sh && chmod +x install_cheat.sh`
 + `./install_cheat.sh`
-+ restart your terminal
++ restart terminal
 ### What the script does
 + clones [cheat.sh](https://github.com/chubin/cheat.sh) from the offical repository
 + creates a folder called alias_scripts in your HOME directory
