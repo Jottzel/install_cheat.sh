@@ -7,4 +7,4 @@
 
 ### Usage
 In the command line simply type **$ cheat** or **$ cheat [your argument]**    
-Example: **$ cheat ls** shows information about the ls command.
+`Example`: **$ cheat ls** shows information about the ls command.
