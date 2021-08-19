@@ -66,4 +66,5 @@ else
 fi
 
 echo "Installation was sucessful."
+echo " Restart your terminal to have the changes become active."
 exit 0
