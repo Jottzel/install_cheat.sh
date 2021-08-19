@@ -1,5 +1,5 @@
 ## Install script for cheat.sh
-### Script needs to be executed in your git folder.
+### Script needs to be executed inside your git folder.
 + clones cheat.sh from the offical repo
 + creates a folder called alias_scripts in your HOME directory
 + creates a script within alias_scripts that executes curl cheat.sh $1 whenever "cheat" is typed. 
