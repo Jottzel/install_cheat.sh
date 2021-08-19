@@ -8,7 +8,7 @@
 ### What the script does
 + clones [cheat.sh](https://github.com/chubin/cheat.sh) from the offical repository
 + creates a folder called alias_scripts in your HOME directory
-+ creates a script within alias_scripts that modifies .bash_aliases and executes `$ curl cheat.sh $1` whenever `$ cheat` is used. 
++ creates a script within alias_scripts that modifies .bash_aliases and executes `$ curl cheat.sh $1` whenever `$ cheat` is called. 
 + promtps "Search: " if no parameter $1 was given
 
 ### Usage
