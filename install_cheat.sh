@@ -26,7 +26,7 @@ then
 		echo "Aborting Installation.."
 		exit 1
 	else
-		https://github.com/Jottzel/Install_cheat.sh
+		https://github.com/Jottzel/cheatalias.sh
 		mv cheatscript.sh "$Folder"
 		chmod +x "$Filecheat"
 	fi
