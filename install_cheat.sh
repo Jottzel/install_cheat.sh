@@ -18,18 +18,30 @@ Folder=~/alias_scripts
 Filecheat=~/alias_scripts/cheatscript.sh
 
 if test -f "$Folder"
+
 then
-	echo "Bash_scripte exists."
+	echo "alias_scripts exists."
+
 	if test -f "$Filecheat"
+
 	then
 		echo "cheatscript.sh already exists"
 		echo "Aborting Installation.."
 		exit 1
 	else
-		https://github.com/Jottzel/cheatalias.sh
-		mv cheatscript.sh "$Folder"
-		chmod +x "$Filecheat"
+		echo "Cloning cheatalias.sh from https://github.com/Jottzel/cheatalias.sh.git"
+	        git clone https://github.com/Jottzel/cheatalias.sh.git	
+       		mv cheatalias.sh/cheatscript.sh "$Folder"
+        	chmod +x "$Filecheat"
 	fi
+else
+	mkdir "$Folder"
+	echo "Cloning cheatalias.sh from https://github.com/Jottzel/cheatalias.sh.git"
+	git clone https://github.com/Jottzel/cheatalias.sh.git
+	mv cheatalias.sh/cheatscript.sh "$Folder"
+	chmod +x "$Filecheat"
+
+
 fi
 
 FILE=~/.bash_aliases
