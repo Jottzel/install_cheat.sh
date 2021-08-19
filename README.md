@@ -1,4 +1,5 @@
-## Simple install script for cheat.sh
+## Simple install script for cheat.sh   
+Unified access to the best community driven documentations of the world.
 
 ### Installation     
 **Inside your git folder do:**
